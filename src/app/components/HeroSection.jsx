@@ -23,16 +23,16 @@ const HeroSection = () => {
             <TypeAnimation
               sequence={[
                 "Vedansh",
-                1000,
+                5000,
                 "MERN Stack Developer",
                 1000,
                 "Freelancer",
                 1000,
-                "Penetration Tester",
+                "Bug Bounty Hunter",
                 1000,
               ]}
               wrapper="span"
-              speed={50}
+              speed={60}
               repeat={Infinity}
             />
           </h1>
@@ -62,43 +62,19 @@ const HeroSection = () => {
           transition={{ duration: 0.5 }}
           className="col-span-4 place-self-center mt-4 lg:mt-0"
         >
-          {/* <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
-            <Image
-              src="/images/hero-image.png"
-              alt="hero image"
-              className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-              width={300}
-              height={300}
+          <div className="bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative overflow rounded-full">
+            <img
+              src="/images/profile.png"
+              alt="image"
+              className="absolute top-0 left-0 w-full h-full object-cover rounded-full"
+              style={{
+                clipPath: 'circle(50% at 50% 50%)',
+              }}
             />
-          </div> */}
-{/* <div className="bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative overflow-hidden rounded-full">
-  <img
-    src="/images/hero-image.png"
-    alt="hero image"
-    className="absolute top-0 left-0 w-full h-full object-cover rounded-full"
-    style={{ clipPath: 'circle(70% at 60% 50%)', transform: 'translateY(10%)' }}
-  />
-</div> */}
-<div className="bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative overflow-hidden rounded-full">
-  <img
-    src="/images/hero-image new.png"
-    alt="hero image"
-    className="absolute top-0 left-0 w-full h-full object-cover rounded-full"
-    style={{
-      clipPath: 'circle(75% at 50% 50%)',
-      transform: 'translateY(12.5%)' // You can adjust this value if needed
-    }}
-  />
-</div>
-
-
-
-
-
+          </div>
         </motion.div>
       </div>
     </section>
   );
 };
-
 export default HeroSection;

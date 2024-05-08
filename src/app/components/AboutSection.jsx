@@ -9,12 +9,15 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className="list-disc pl-2">
-        <li>Node.js</li>
-        <li>Express</li>
+        <li>Node JS</li>
+        <li>Express JS</li>
         <li>PostgreSQL</li>
-        <li>Sequelize</li>
         <li>JavaScript</li>
-        <li>React</li>
+        <li>ReactJS</li>
+        <li>Django</li>
+        <li>Java</li>
+        <li>Python</li>
+        <li>C/C++</li>
       </ul>
     ),
   },
@@ -57,13 +60,14 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-          Dedicated to crafting inventive solutions utilizing the power of the MERN (MongoDB, Express.js, React.js, Node.js) stack, 
-          I am deeply passionate about pushing the boundaries of web development. As a seasoned freelancer, I thrive in collaborative 
-          environments, working alongside diverse teams to create top-tier web applications that not only fulfill client requirements 
-          but also exceed expectations. <br></br>My fascination with cybersecurity drives me to continually augment my expertise, ensuring I 
-          remain at the forefront of emerging threats and adeptly integrate robust security protocols into all my projects.<br></br> During my 
-          tenure as an Azure Cloud Analyst Intern, I fortified my skills in cloud computing, infrastructure management, and data 
-          security within the Azure ecosystem, laying a solid foundation for my journey in technology.
+          Passionate about pushing the boundaries of web development with the 
+          MERN stack, I thrive in collaborative environments, exceeding client 
+          expectations with top-tier applications. My cybersecurity expertise 
+          ensures robust security in all projects, honed during my tenure as 
+          an Azure Cloud Analyst Intern.<br></br>
+          Outside of tech, I enjoy unwinding with PC games, finding both 
+          entertainment and problem-solving challenges. Avid reading broadens 
+          my perspective and fuels creativity, enriching every project I undertake.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
